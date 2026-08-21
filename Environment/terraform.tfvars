@@ -5,6 +5,6 @@ resource = {
 azkuberser = {
   aksnewser = {
     rg_name = "aksrg"
-    dns = "aksprefix"
+    dns     = "aksprefix"
   }
 }
