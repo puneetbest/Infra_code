@@ -1,4 +1,4 @@
-name: Terraform CI
+name:  Terraform CI
 
 on:
   # Run CI when Terraform code is pushed to feature branch
