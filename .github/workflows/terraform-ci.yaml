@@ -2,7 +2,7 @@ name:  Terraform CI
 
 on:
   workflow_dispatch:
-  
+
   push:
     branches:
       - feature/aks
@@ -53,6 +53,7 @@ jobs:
         with:
           working_directory: Environment
           soft_fail: false
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
       # ===================================================
       # 4. Setup Terraform
