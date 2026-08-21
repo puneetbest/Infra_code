@@ -4,7 +4,7 @@ on:
   # Run CI when Terraform code is pushed to feature branch
   push:
     branches:
-      - feature/Aks
+      - feature/aks
 
   # Run CI again for the Pull Request to main
   # This provides the required GitHub status check
