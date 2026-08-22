@@ -47,7 +47,7 @@ jobs:
       - name: IaC Scan - tfsec
         uses: aquasecurity/tfsec-action@v1.0.3
         with:
-          working_directory: Environment/Pre_Prod
+          working_directory: Environment
           soft_fail: false
 
       # ===================================================
