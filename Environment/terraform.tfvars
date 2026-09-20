@@ -11,7 +11,7 @@ azkuberser = {
 
 postgresqlser = {
   postgresaxion = {
-    rg_name = "aksrg"
+    rg_name        = "aksrg"
     version        = "12"
     admin_login    = "postgres"
     admin_password = "admin@123"
