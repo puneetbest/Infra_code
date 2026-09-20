@@ -1,4 +1,10 @@
 terraform {
+  backend "azurerm" {
+    resource_group_name  = "staterg"
+    storage_account_name = "aksinfrasa"
+    container_name       = "akstfstate"
+    key                  = "aks.tstate"
+  }
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
