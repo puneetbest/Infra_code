@@ -30,7 +30,7 @@ resource "azurerm_postgresql_flexible_server" "axion" {
   for_each               = var.postgresqlser
   name                   = each.key
   resource_group_name    = azurerm_resource_group.rg[each.value.rg_name].name
-  location               = azurerm_resource_group.rg[each.value.rg_name].location
+  location               = each.value.location
   version                = each.value.version
   administrator_login    = each.value.admin_login
   administrator_password = each.value.admin_password
