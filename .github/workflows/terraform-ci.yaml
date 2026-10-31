@@ -75,9 +75,9 @@ jobs:
       - name: Azure Login
         uses: azure/login@v2
         with:
-          client-id: 2cbe4242-097c-4943-b6f1-51e12347fa79
-          tenant-id: bba7e730-7b42-49ba-856d-f72f4c7be834
-          subscription-id: 5a35d30d-6a8d-482a-b237-15a1133eecd8
+          client-id: ea616115-2b4d-47c6-a3d4-e08f76c012c2
+          tenant-id: 5b1021f9-49ca-4cb6-8817-704d0960a2b9
+          subscription-id: b3cee294-daf0-4add-80fd-af9b8c01c64a
 
       # ===================================================
       # 7. Terraform Init
